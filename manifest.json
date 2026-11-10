@@ -1,11 +1,11 @@
 {
-  "version": "1.4.7",
-  "description": "Test update: change version labels only. No accounting calculations or data are changed.",
+  "version": "1.4.8",
+  "description": "Home-page appearance only: remove the Gd2Go Food Business Accounting and Reporting subtitle. No accounting logic or database changes.",
   "files": [
     {
       "name": "black_ink.py",
       "url": "black_ink.py",
-      "sha256": "b1df3b5c44733a33414debc35542f59905bbfd172c08bdb86526984c0efeee48"
+      "sha256": "b90e3a78ae7ae90e8717f9bfcfdb35de6a69d5050bf14c2392f96b4ae2681118"
     }
   ]
 }

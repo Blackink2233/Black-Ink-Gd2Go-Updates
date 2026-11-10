@@ -59,7 +59,7 @@ def signature(date, source, desc, debit, credit, srcfile, seq):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('Black Ink - Gd2Go | Version 1.4.7 — Online Updates Test')
+        self.title('Black Ink - Gd2Go | Version 1.4.8 — Home Subtitle Removed')
         self.geometry('1420x850')
         self.minsize(850,560)
         self._gl_editor = None
@@ -100,7 +100,6 @@ class App(tk.Tk):
         # Text and pen occupy distinct sides of the header; no overlap.
         brand=tk.Frame(header,bg='#f7f6f1');brand.pack(side='left',fill='y',padx=(35,0),pady=15)
         tk.Label(brand,text='BLACK INK - GD2GO',font=('Georgia',29,'bold'),bg='#f7f6f1',fg='#152d42').pack(anchor='w')
-        tk.Label(brand,text='Gd2Go Food Business Accounting and Reporting',font=('Georgia',13,'italic'),bg='#f7f6f1',fg='#66717d').pack(anchor='w',pady=(1,0))
         logo=Path(__file__).with_name('black_ink_pen_header_sized.png')
         if logo.exists():
             self.pen_img=tk.PhotoImage(file=str(logo))
@@ -277,7 +276,7 @@ class App(tk.Tk):
             tk.Label(tile,text=detail,bg='#17374f',fg='#d4dee5',font=('Segoe UI',9),
               wraplength=300,justify='left',padx=16,pady=2,anchor='nw').pack(fill='both',expand=True)
         for i in range(3): grid.columnconfigure(i,weight=1,uniform='home_cards')
-        tk.Label(content,text='BLACK INK - GD2GO  •  VERSION 1.4.7 ONLINE UPDATES TEST  •  SEPARATE DATABASE',
+        tk.Label(content,text='BLACK INK - GD2GO  •  VERSION 1.4.8 HOME SUBTITLE REMOVED  •  SEPARATE DATABASE',
            fg='#a38755',bg='#f8f7f4',font=('Segoe UI',9,'bold')).pack(pady=(8,18))
 
     def _action_hub(self,title,subtitle,actions):
