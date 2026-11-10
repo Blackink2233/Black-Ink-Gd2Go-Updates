@@ -1,0 +1,11 @@
+{
+  "version": "1.4.7",
+  "description": "Test update: change version labels only. No accounting calculations or data are changed.",
+  "files": [
+    {
+      "name": "black_ink.py",
+      "url": "black_ink.py",
+      "sha256": "b1df3b5c44733a33414debc35542f59905bbfd172c08bdb86526984c0efeee48"
+    }
+  ]
+}
